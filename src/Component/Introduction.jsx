@@ -4,7 +4,7 @@ import Image1 from "../Images/Profile.jpg";
 function Introduction() {
   return (
     <section className="bg-[#0E0B16]">
-      <div className="container text-[#708090] flex flex-wrap items-center justify-between mx-auto py-4 pb-[100px]">
+      <div className="container text-[#708090] flex flex-wrap items-center justify-between mx-auto py-4 pb-[100px] pt-[100px]">
         <div className="flex w-screen justify-center items-center">
           <div className="w-80 rounded-full">
             <img className="rounded-full" src={Image1} alt="Profile" />

@@ -2,7 +2,7 @@ import React from "react";
 
 function Tables() {
   return (
-    <div className="relative overflow-x-auto w-4/5 mx-auto rounded-lg shadow-md">
+    <div className=" overflow-x-auto w-4/5 mx-auto rounded-lg shadow-md">
       <table className="w-full text-sm text-left text-gray-500 font-lato">
         <thead className="text-base lg:text-lg text-[#708090] uppercase bg-[#171225] border-b border-gray-800">
           <tr>

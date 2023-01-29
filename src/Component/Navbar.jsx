@@ -2,8 +2,8 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="bg-[#0E0B16] border-gray-200 px-2 sm:px-4 py-2.5">
-      <div className="container flex flex-wrap items-center justify-between mx-auto font-lato">
+    <nav className="bg-[#0E0B16] border-gray-200 px-2 sm:px-4 py-2.5 fixed w-screen">
+      <div className="container flex flex-wrap items-center justify-between mx-auto font-lato ">
         <span className="self-center text-xl font-semibold whitespace-nowrap text-[#EE82EE]">
           Logo
         </span>
@@ -46,7 +46,7 @@ function Navbar() {
                 href="#"
                 className="block py-2 pl-3 pr-4 neon-pink bg-[#0E0B16] font-semibold md:hover:bg-transparent md:border-0 md:p-0"
               >
-                History
+                Work Experience
               </a>
             </li>
             <li>
@@ -54,7 +54,7 @@ function Navbar() {
                 href="#"
                 className="block py-2 pl-3 pr-4 neon-pink bg-[#0E0B16] font-semibold md:hover:bg-transparent md:border-0 md:p-0"
               >
-                Previous Projects
+                Skills
               </a>
             </li>
             <li>

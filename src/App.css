@@ -37,4 +37,49 @@
   }
 }
 
+.neon-pink:hover { 
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #500550, 0 0 70px #500550, 0 0 80px #500550, 0 0 100px #500550;
+  transition: text-shadow 0.2s ease-in-out;
+}
+.neon-pink{
+  color: #EE82EE;
+}
+
+.icons{
+  font-size: 100px;
+  color: #9b6dff;
+  transition: color 0.5s ease;
+  
+}
+.card-body:hover .icons{
+  color:#171225;
+  transition: color 0.5s ease;
+}
+.card-text{
+  transition: color 0.5s ease;
+}
+
+.card-body:hover .card-text {
+  color:#171225;
+  transition: color 0.5s ease;
+}
+
+.linkedin-icon{
+  font-size: 50px;
+  --tw-text-opacity: 1;
+color: rgba(229, 231, 235, var(--tw-text-opacity));
+  
+}
+
+.insta-icon{
+  font-size: 50px;
+  --tw-text-opacity: 1;
+color: rgba(229, 231, 235, var(--tw-text-opacity));
+  
+  
+}
+
+
+
+
 

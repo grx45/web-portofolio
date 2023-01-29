@@ -2,16 +2,16 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="bg-[#3D1766] border-gray-200 px-2 sm:px-4 py-2.5">
-      <div className="container flex flex-wrap items-center justify-between mx-auto">
-        <span className="self-center text-xl font-semibold whitespace-nowrap text-[#CD0404]">
-          Portofolio
+    <nav className="bg-[#0E0B16] border-gray-200 px-2 sm:px-4 py-2.5">
+      <div className="container flex flex-wrap items-center justify-between mx-auto font-lato">
+        <span className="self-center text-xl font-semibold whitespace-nowrap text-[#EE82EE]">
+          Logo
         </span>
 
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          className="inline-flex items-center p-2 ml-3 text-sm text-[#CD0404] rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          className="inline-flex items-center p-2 ml-3 text-sm text-[#EE82EE] rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-[#EE82EE]"
           aria-controls="navbar-default"
           aria-expanded="false"
         >
@@ -31,11 +31,11 @@ function Navbar() {
           </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="flex flex-col mt-4 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#3D1766]">
+          <ul className="flex flex-col mt-4 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#0E0B16]">
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-white bg-[#3D1766] font-semibold hover:bg-[#CD0404] md:hover:bg-transparent md:p-0 md:hover:text-[#CD0404] "
+                className="block py-2 pl-3 pr-4 neon-pink bg-[#0E0B16] font-semibold md:hover:bg-transparent md:p-0"
                 aria-current="page"
               >
                 About Me
@@ -44,7 +44,7 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-white bg-[#3D1766] font-semibold hover:bg-[#CD0404] md:hover:bg-transparent md:border-0 md:hover:text-[#CD0404] md:p-0"
+                className="block py-2 pl-3 pr-4 neon-pink bg-[#0E0B16] font-semibold md:hover:bg-transparent md:border-0 md:p-0"
               >
                 History
               </a>
@@ -52,7 +52,7 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-white bg-[#3D1766] font-semibold hover:bg-[#CD0404] md:hover:bg-transparent md:border-0 md:hover:text-[#CD0404] md:p-0"
+                className="block py-2 pl-3 pr-4 neon-pink bg-[#0E0B16] font-semibold md:hover:bg-transparent md:border-0 md:p-0"
               >
                 Previous Projects
               </a>
@@ -60,7 +60,7 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-white bg-[#3D1766] font-semibold hover:bg-[#CD0404] md:hover:bg-transparent md:border-0 md:hover:text-[#CD0404] md:p-0"
+                className="block py-2 pl-3 pr-4 neon-pink bg-[#0E0B16] font-semibold md:hover:bg-transparent md:border-0 md:p-0"
               >
                 Contact
               </a>

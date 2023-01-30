@@ -3,7 +3,11 @@ import { FiMail } from "react-icons/fi";
 import { BsTelephone } from "react-icons/bs";
 import { CiLocationOn } from "react-icons/ci";
 
-import { AiOutlineLinkedin, AiOutlineInstagram } from "react-icons/ai";
+import {
+  AiOutlineLinkedin,
+  AiOutlineInstagram,
+  AiFillGithub,
+} from "react-icons/ai";
 
 function Contact() {
   return (
@@ -62,6 +66,9 @@ function Contact() {
             href="https://www.instagram.com/grx45/?hl=en"
           >
             <AiOutlineInstagram className="insta-icon" />
+          </a>
+          <a className="linkedin-icon" href="https://github.com/grx45">
+            <AiFillGithub className="github-icon" />
           </a>
         </div>
 

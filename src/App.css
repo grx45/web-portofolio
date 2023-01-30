@@ -76,6 +76,12 @@ color: rgba(229, 231, 235, var(--tw-text-opacity));
   --tw-text-opacity: 1;
 color: rgba(229, 231, 235, var(--tw-text-opacity));
   
+}
+
+.github-icon{
+  font-size: 50px;
+  --tw-text-opacity: 1;
+color: rgba(229, 231, 235, var(--tw-text-opacity));
   
 }
 

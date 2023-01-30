@@ -1,6 +1,6 @@
 import React from "react";
 import { DiJavascript, DiHtml5, DiCss3, DiReact } from "react-icons/di";
-import { SiTailwindcss, SiBootstrap } from "react-icons/si";
+import { SiTailwindcss, SiBootstrap,} from "react-icons/si";
 
 function Skills() {
   return (

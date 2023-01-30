@@ -55,20 +55,14 @@ function Contact() {
           </h3>
         </div>
         <div className="my-4 flex gap-10 px-4 lg:my-8">
-          <a
-            className="linkedin-icon"
-            href="https://www.linkedin.com/in/jeffry-ngasinur-900547204/"
-          >
-            <AiOutlineLinkedin />
+          <a href="https://www.linkedin.com/in/jeffry-ngasinur-900547204/">
+            <AiOutlineLinkedin className="text-3xl md:text-5xl text-gray-400" />
           </a>
-          <a
-            className="linkedin-icon"
-            href="https://www.instagram.com/grx45/?hl=en"
-          >
-            <AiOutlineInstagram className="insta-icon" />
+          <a href="https://www.instagram.com/grx45/?hl=en">
+            <AiOutlineInstagram className="text-3xl md:text-5xl text-gray-400" />
           </a>
-          <a className="linkedin-icon" href="https://github.com/grx45">
-            <AiFillGithub className="github-icon" />
+          <a href="https://github.com/grx45">
+            <AiFillGithub className="text-3xl md:text-5xl text-gray-400" />
           </a>
         </div>
 

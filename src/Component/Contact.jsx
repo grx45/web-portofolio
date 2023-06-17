@@ -11,7 +11,7 @@ import {
 
 function Contact() {
   return (
-    <section className="bg-[#171225]">
+    <section id="contact" className="bg-[#171225] ">
       <div className="container mx-auto w-screen pb-5 px-4 lg:py-10 lg:px-0">
         {/* ==================================================================================================== */}
         <div className="bg-[#171225] text-[#9b6dff] px-6 py-3 rounded-t-md text-lg">

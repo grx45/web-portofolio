@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="bg-[#0E0B16] border-gray-200 px-2 sm:px-4 py-2.5 fixed w-screen">
+    <nav className="bg-[#0E0B16] border-gray-200 px-2 sm:px-4 py-2.5 fixed w-screen h-[2.5vw] ">
       <div className="container flex flex-wrap items-center justify-between mx-auto font-lato ">
         <span className="self-center text-xl font-semibold whitespace-nowrap text-[#EE82EE]">
           Logo
@@ -34,33 +34,32 @@ function Navbar() {
           <ul className="flex flex-col mt-4 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#0E0B16]">
             <li>
               <a
-                href="#"
-                className="block py-2 pl-3 pr-4 neon-pink bg-[#0E0B16] font-semibold md:hover:bg-transparent md:p-0"
-                aria-current="page"
+                href="#portofolio"
+                className="block py-2 pl-3 pr-4 neon-pink bg-[#0E0B16] font-semibold md:hover:bg-transparent md:border-0 md:p-0 text-base"
               >
-                About Me
+                Portofolio
               </a>
             </li>
             <li>
               <a
-                href="#"
-                className="block py-2 pl-3 pr-4 neon-pink bg-[#0E0B16] font-semibold md:hover:bg-transparent md:border-0 md:p-0"
+                href="#history"
+                className="block py-2 pl-3 pr-4 neon-pink bg-[#0E0B16] font-semibold md:hover:bg-transparent md:border-0 md:p-0 text-base"
               >
                 Work Experience
               </a>
             </li>
             <li>
               <a
-                href="#"
-                className="block py-2 pl-3 pr-4 neon-pink bg-[#0E0B16] font-semibold md:hover:bg-transparent md:border-0 md:p-0"
+                href="#skills"
+                className="block py-2 pl-3 pr-4 neon-pink bg-[#0E0B16] font-semibold md:hover:bg-transparent md:border-0 md:p-0 text-base"
               >
                 Skills
               </a>
             </li>
             <li>
               <a
-                href="#"
-                className="block py-2 pl-3 pr-4 neon-pink bg-[#0E0B16] font-semibold md:hover:bg-transparent md:border-0 md:p-0"
+                href="#contact"
+                className="block py-2 pl-3 pr-4 neon-pink bg-[#0E0B16] font-semibold md:hover:bg-transparent md:border-0 md:p-0 text-base"
               >
                 Contact
               </a>
